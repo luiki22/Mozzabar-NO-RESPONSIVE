@@ -1,0 +1,395 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Aguafina+Script&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.enlaces{
+    color: white;
+}
+.menunav{
+    display: flex;
+    height: 100px;
+}
+
+.logo img{
+  width: 100px;
+  padding: 10px;
+  position: absolute;
+  
+  
+}
+
+.logo{
+    width: 10%;
+    background-color: black;
+}
+
+.navbar{
+    width: 90%;
+    background-color: black;
+    color: white;
+    padding-left: 40px; 
+}
+
+li{
+    display: inline-block;
+    margin: 20px;
+    padding-top: 20px;
+}
+
+.fotoprincipal{
+    width: 100%;
+}
+
+.fotoprincipal{
+    background-image: url(/assets/image.png);
+    width: 98,5vw;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.fotoprincipal{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center
+}
+
+.descub{
+    color: orange;
+    font-family: 'Aguafina Script', cursive;
+    font-size: 50px;
+    display: flex;
+}
+
+.mozzabar{
+    color: white;
+    font-size: 60px;
+}
+
+.open{
+    color: white;
+}
+
+h2{
+    text-align: center;
+}
+
+.concept::after, .concept::before{
+    display: inline-block;
+    width: 100px;
+    border: 1px solid white;
+    content: "";
+    margin: 0 5px 5px 5px;
+}
+.container-concepto{
+    background-image: url(/assets/hojas-gris.avif);
+    background-repeat: no-repeat;
+    width: 98,5vw;
+    height: 100vh;
+    background-size: cover;
+}
+
+.concepto{
+    margin: 0px 0px 0px 500px;
+    width: 400px;           
+    height: 300px;
+    background: black;
+    color:white;
+    padding: 70px;
+    position: absolute;
+    transform: translateY(30%);
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.container-concepto .letucce img{
+    width: 100px;
+    padding: 150px;
+    position: absolute;
+    margin-left: 310px;
+
+}
+
+.container-concepto .cocktail img {
+    width: 250px;
+    padding: 150px;
+    position: absolute;
+    margin-left: 750px;
+
+}
+
+.pictures{
+    background-color: black;
+    padding-left: 300px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+
+}
+
+.titlecarta{
+    padding-top: 20px;
+}
+
+.titlecarta::after, .titlecarta::before{
+    display: inline-block;
+    width: 100px;
+    border: 1px solid black;
+    content: "";
+    margin: 0 5px 5px 5px;
+}
+
+.carta{
+    width: 100%;
+}
+
+.subnav-carta{
+    text-align: center;
+    margin: 40px;
+    
+}
+
+.subnav-carta a{
+    padding: 10px;
+
+}
+    
+a:hover{
+    border-bottom: 3px solid orange;
+
+}
+        
+
+.productos{
+    background-image: url(/assets/fondoflores2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 98,5vw;
+    height: 100vh;
+    margin: 30px;
+    display: flex;
+}
+
+.table1{
+    background-color: white;
+    margin-left: 90px;
+    margin-top: 20px;
+    padding: 20px;
+    height: 80vh;
+}
+
+.table2{
+    background-color: white;
+    margin-left: 90px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 20px;
+
+}
+
+.reser::after, .reser::before{
+    display: inline-block;
+    width: 100px;
+    border: 1px solid orange;
+    content: "";
+    margin: 0 5px 5px 5px;
+}
+
+
+.formulario{
+    width: 100vw;
+    height: 80vh;
+    background-image: url(/assets/image-sillas.png);
+    background-repeat: none;
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+.todo-completo{
+    display: flex;
+    width: 100%;
+    height: 50%;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.campos-pers-horas{
+    display: flex;
+    
+}
+.pers label{
+    display: block;
+}
+
+.hor label{
+    display: block;
+}
+
+.pers, .hor input{
+    margin-bottom: 10px;
+
+}
+
+.hor{
+    margin-left: 80px;
+}
+
+
+.tipmes label{
+    display: block;
+}
+
+.reservar, .listespera, .solgroup{
+    width: 410px;
+    background-color: white;
+    color: black;
+    padding: 5px;
+    display: block;
+    margin-top: 10px;
+
+}
+
+.tipmes input{
+    width: 407px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.textform{
+    margin-left: 50px;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    padding-top: 45px;
+}
+
+.dispo p{
+    padding-top: 10px;
+}
+
+.reser{
+    padding: 30px;
+}
+
+
+.mozza{
+    color: orange;
+}
+
+.blog-completo{
+    
+    height: 70vh;
+}
+
+
+.titleblog{
+text-align: center;
+padding-top: 20px;
+}
+
+.titleblog::after, .titleblog::before{
+    display: inline-block;
+    width: 100px;
+    border: 1px solid orange;
+    content: "";
+    margin: 0 5px 5px 5px;
+}
+
+.blog{
+   
+    display: flex;
+    justify-content:center;
+    padding-top: 10px;
+    
+}
+
+.blog img{
+    margin:10px;
+    height: 250px;
+}
+.ven{
+    background-image: url(/assets/foto_tarta.png);
+    background-repeat: none;
+    background-size: cover;
+    background-position: center;
+    color: white;
+  
+}
+
+.ven img{
+    padding-left: 650px;
+}
+
+.ven p{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+.material-symbols-outlined{
+    color: orange;
+    padding-left: 700px;
+    padding-top: 50px;
+    padding-bottom: 70px;
+}
+.siguenos{
+    text-align: center;
+    width: 100vw;
+}
+
+.socialmedia{
+   width: 100vw;
+   display: flex;
+   padding-left: 600px;
+   padding-bottom: 30px;
+
+}
+
+.socialmedia p{
+    padding: 10px;
+    border: 2px black solid;
+    margin: 20px;
+    width: 100px;
+    font-family: 'Roboto', sans-serif;
+   
+}
+
+.titlesiguenos{
+    padding: 30px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.titlesiguenos::after, .titlesiguenos::before{
+    display: inline-block;
+    width: 100px;
+    border: 1px solid orange;
+    content: "";
+    margin: 0 5px 5px 5px;
+}
+
+.otros {
+    display: flex;
+    justify-content:space-evenly;
+    padding: 50px;
+    background-color: #D3D3D3;
+    font-family: 'Roboto', sans-serif;
+    color: black;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+h4{
+    padding-bottom: 20px;
+}
